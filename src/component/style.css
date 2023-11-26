@@ -1,0 +1,104 @@
+
+.container {
+  padding: 25px;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'Agbalumo', sans-serif;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+select,
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  max-width: 250px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  max-width: 1000px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.pannelParent {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+#panelSelect {
+  max-width: 200px;
+}
+
+.comic-display {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  gap: 10px;
+}
+
+.comic-panel {
+  flex: 1;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none; /* Initially hide all panels */
+}
+
+.comic-panel.active {
+  display: block; /* Show the selected panel */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.Loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
