@@ -115,3 +115,4 @@ function ComicGenerator() {
 }
 
 export default ComicGenerator;
+
